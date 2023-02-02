@@ -1,12 +1,12 @@
 /* main grid */
 .container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(20px, auto);
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(32px, auto);
 }
 
 /* grid column placement */
-.header {
+header {
     grid-column: 1 / -1;
 }
 
@@ -18,8 +18,10 @@ nav {
     grid-column: 1 / -1;
 }
 
-footer {
+article {
     grid-column: 1 / -1;
 }
 
-
+footer {
+    grid-column: 1 / -1;
+}
