@@ -31,37 +31,12 @@
 }
 
 
-/* navbar placement */
-nav {
-    list-style: none;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    display: inline-block;
-    margin: auto;
-}
-
-/* navbar list styling */
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 10px;
-    background-color: rgb(183, 14, 14);
-    font-size: 1em;
-}
-
-/* links */
 nav, a {
   position: relative;
   text-decoration: none;
   color: #e0e0e0;
 }
+
 
 /* header styling */
 header {
