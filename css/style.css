@@ -51,7 +51,7 @@ header {
 
 /* Liten meny */
 .litenmeny {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/slideshow1.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/slideshow1.webp");
   text-align: center;
   border-top: 3px solid #e0e0e0;
 
