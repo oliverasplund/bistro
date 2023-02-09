@@ -2,7 +2,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(32px, auto);
+    grid-auto-rows: minmax(20px, auto);
 }
 
 /* grid column placement */
@@ -14,11 +14,7 @@ nav {
     grid-column: 1 / -1;
 }
 
-.slideshow-container {
-    grid-column: 1 / -1;
-}
-
-.dropdown {
+article {
     grid-column: 1 / -1;
 }
 
